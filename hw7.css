@@ -1,0 +1,112 @@
+.h1{
+position: relative;
+width: 120px;
+height: 120px;
+margin: 6em;
+border: 4px solid #100f0f;
+border-radius: 50%;
+    background-color: #b9a7a7;
+}
+.h2{
+  position: absolute;
+width: 150px;
+height: 150px;
+margin: -1.15em;
+border: 4px solid #100f0f;
+border-radius: 50%;
+
+}
+.h3{
+    position: absolute;
+width: 4px;
+height: 45px;
+left: 60px;
+top: 15px;
+background: #b62929;
+animation: sec 1s infinite steps(60);
+transform-origin: 0 45px;
+}
+@keyframes nov {
+100%{
+transform: rotate(360deg);
+}
+}
+.h4{
+  position: absolute;
+width: 4px;
+height: 45px;
+left: 60px;
+top: 15px;
+background: #100f0f;
+animation: sec 60s infinite steps(60);
+transform-origin: 0 46px;
+}
+@keyframes sec {
+100%{
+transform: rotate(360deg);
+}
+}
+.a1, .a2, .a3, .a4, .a5, .a6, .a7, .a7, .a8, .a9, .a10, .a11, .a12{
+  position: absolute;
+font-weight: bold;
+font-size: 18px;
+color: #0e86e7;
+}
+.a12{
+  top: 0px;
+left: 54px;
+}
+.a1{
+  top: 6px;
+  left: 82px
+}
+.a2{
+  top: 22px;
+  left: 98px
+}
+.a3{
+  top: 43px;
+left: 108px;
+}
+.a4{
+   top: 67px;
+left: 103px;
+}
+.a5{
+   top: 90px;
+left: 87px;
+}
+.a6{
+  top: 100px;
+left: 58px;
+}
+.a7{
+   top: 92px;
+left: 32px;
+}
+.a8{
+   top: 70px;
+left: 9px;
+}
+.a9{
+  top: 43px;
+left: 5px;
+}
+.a10{
+   top: 20px;
+left: 13px;
+}
+.a11{
+   top: 5px;
+left: 33px;
+}
+.h5{
+  position: absolute;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+top: 50px;
+left: 52px;
+background: #60524b;
+}
+
